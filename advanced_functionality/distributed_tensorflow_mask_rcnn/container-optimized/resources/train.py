@@ -198,12 +198,12 @@ def train():
     try:
         data_train = hyperparamters['data_train']
     except KeyError:
-        data_train = 'train2017'
+        data_train = 'Training_images'
 
     try:
         data_val = hyperparamters['data_val']
     except KeyError:
-        data_val = 'val2017'
+        data_val = 'Validation_images'
 
     try:
         nccl_min_rings = hyperparamters['nccl_min_rings']
